@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="overview">
+    <div>
+      <p class="mb-5">My balance</p>
+      
+      <h2>$921.48</h2>
+    </div>
+    <div>
+
+      <svg class="mt-5" width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+    </div>
+  </div>
+    
+
+
+
+
+<div class="analysis">
+  <h2 class="dark">  Spending - Last 7 days
+
+  </h2>
+  <canvas id="canvas">
+
+  </canvas>
+  <div class="line mb-10">
+
+  </div>
+  <div class="data-end">
+    <p class="light mb-5">Total this month</p>
+<div class="data-end-visual">
+  <h1 class="dark">$478.33</h1>
+  <div style="margin-top: -1em;">
+    <p class="dark bold mb-5">+2.4%</p>
+    <p class="light">From last month</p>
+  </div>
+</div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script src="app.js"></script>
+</body>
+</html>
